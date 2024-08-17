@@ -16,25 +16,25 @@ function AboutPage() {
       </div>
       <div className="mt-12 md:mt-0">
       <div className="columns-1 md:columns-2 xl:columns-3 gap-7 ">
-  <div className=" break-inside-avoid mb-8">
-    <Image className="h-auto max-w-full rounded-lg" src="https://pagedone.io/asset/uploads/1688031162.jpg" width={70} height={70} alt="Gallery image" />
-  </div>
-  <div className=" break-inside-avoid  mb-8">
-    <Image className="h-auto max-w-full rounded-lg" src="https://pagedone.io/asset/uploads/1688031232.jpg" width={70} height={70}  alt="Gallery image" />
-  </div>
-  <div className=" break-inside-avoid  mb-8">
-    <Image className="h-auto max-w-full rounded-lg" src="https://pagedone.io/asset/uploads/1688031357.jpg" width={70} height={70}  alt="Gallery image" />
-  </div>
-  <div className=" break-inside-avoid  mb-8">
-    <Image className="h-auto max-w-full rounded-lg" src="https://pagedone.io/asset/uploads/1688031375.jpg" width={70} height={70}  alt="Gallery image" />
-  </div>
-  <div className=" break-inside-avoid  mb-8">
-    <Image className="h-auto max-w-full rounded-lg" src="https://pagedone.io/asset/uploads/1688031396.jpg" width={70} height={70}  alt="Gallery image" />
-  </div>
-  <div className=" break-inside-avoid  mb-8">
-    <Image className="h-auto max-w-full rounded-lg" src="https://pagedone.io/asset/uploads/1688031414.png" width={70} height={70}  alt="Gallery image" />
-  </div>
-</div>
+        <div className=" break-inside-avoid mb-8">
+            <Image className="h-auto max-w-full rounded-lg" src="https://pagedone.io/asset/uploads/1688031162.jpg" width={70} height={70} alt="Gallery image" />
+        </div>
+        <div className=" break-inside-avoid  mb-8">
+            <Image className="h-auto max-w-full rounded-lg" src="https://pagedone.io/asset/uploads/1688031232.jpg" width={70} height={70}  alt="Gallery image" />
+        </div>
+        <div className=" break-inside-avoid  mb-8">
+            <Image className="h-auto max-w-full rounded-lg" src="https://pagedone.io/asset/uploads/1688031357.jpg" width={70} height={70}  alt="Gallery image" />
+        </div>
+        <div className=" break-inside-avoid  mb-8">
+            <Image className="h-auto max-w-full rounded-lg" src="https://pagedone.io/asset/uploads/1688031375.jpg" width={70} height={70}  alt="Gallery image" />
+        </div>
+        <div className=" break-inside-avoid  mb-8">
+            <Image className="h-auto max-w-full rounded-lg" src="https://pagedone.io/asset/uploads/1688031396.jpg" width={70} height={70}  alt="Gallery image" />
+        </div>
+        <div className=" break-inside-avoid  mb-8">
+            <Image className="h-auto max-w-full rounded-lg" src="https://pagedone.io/asset/uploads/1688031414.png" width={70} height={70}  alt="Gallery image" />
+        </div>
+    </div>
 
       </div>
     </div>
