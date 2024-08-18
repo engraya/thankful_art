@@ -7,11 +7,11 @@ function AboutPage() {
       <div className="max-w-lg flex-col gap-y-8">
         <div className='gap-y-4'>
         <h2 className="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-purple-500 lg:inline dark:text-gray-100 sm:text-4xl">About ThankfulArt</h2>
-        <p className="mt-4 text-gray-600 dark:text-gray-500 text-lg">Welcome to ThankfulArt, your go-to platform for creating beautifully personalized thank you cards in just a few clicks. We believe that gratitude should be heartfelt and effortless, which is why we’ve combined stunning imagery from Unsplash with a simple, intuitive design process. Whether you're thanking a friend, family member, or colleague, our tool makes it easy to create a card that feels truly special. Start designing today and share your appreciation with style...</p>
+        <p className="mt-4 text-gray-600 dark:text-gray-500 text-lg">Welcome to ThankfulArt, your go-to platform for creating beautifully personalized thank you cards in just a few clicks. We believe that gratitude should be heartfelt and effortless, which is why we&apos;ve combined stunning imagery from Unsplash with a simple, intuitive design process. Whether you&apos;re thanking a friend, family member, or colleague, our tool makes it easy to create a card that feels truly special. Start designing today and share your appreciation with style...</p>
         </div>
         <div className='gap-y-4 mt-4'>
         <h2 className="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-purple-500 lg:inline dark:text-gray-100 sm:text-4xl">Mission</h2>
-        <p className="mt-4 text-gray-600 dark:text-gray-500 text-lg">Our mission is to empower everyone to express their gratitude in a meaningful and visually captivating way. We strive to make the process of creating personalized thank you cards quick, easy, and accessible to all, without compromising on quality or creativity. At ThankfulArt, we believe that a simple "thank you" can make a big difference, and we’re here to help you share it with the world.</p>
+        <p className="mt-4 text-gray-600 dark:text-gray-500 text-lg">Our mission is to empower everyone to express their gratitude in a meaningful and visually captivating way. We strive to make the process of creating personalized thank you cards quick, easy, and accessible to all, without compromising on quality or creativity. At ThankfulArt, we believe that a simple &quot;thank you&quot; can make a big difference, and we&apos;re here to help you share it with the world.</p>
         </div>
       </div>
       <div className="mt-12 md:mt-0">
