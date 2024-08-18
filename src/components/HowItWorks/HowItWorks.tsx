@@ -12,7 +12,7 @@ function HowItWorks() {
   </div>
 </section>
     <div className="relative mt-12 lg:mt-20">
-      <div className="absolute inset-x-0 hidden xl:px-44 top-2 md:block md:px-20 lg:px-28"><Image alt="" loading="lazy" width={1000} height={500} decoding="async" data-nimg={1} className="w-full" style={{color: 'transparent'}} src="https://cdn.rareblocks.xyz/collection/celebration/images/steps/2/curved-dotted-line.svg" />
+      <div className="absolute inset-x-0 hidden xl:px-44 top-2 md:block md:px-20 lg:px-28"><Image alt="" loading="lazy" width={1000} height={500} decoding="async" data-nimg={1} className="w-full dark:text-gray-200" style={{color: 'transparent'}} src="https://cdn.rareblocks.xyz/collection/celebration/images/steps/2/curved-dotted-line.svg" />
       </div>
       <div className="relative grid grid-cols-1 text-center gap-y-12 md:grid-cols-3 gap-x-12">
         <div>

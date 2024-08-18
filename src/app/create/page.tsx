@@ -72,8 +72,8 @@ const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
               )}
               <div className="relative overflow-hidden bg-white border-0 border-gray-200 rounded-2xl">
                 <Image
-                  width={100}
-                  height={100}
+                  width={50}
+                  height={50}
                   src={image?.urls?.full}
                   alt={`Image ${index + 1}`}
                   className="w-full h-48 object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"

@@ -40,12 +40,12 @@ function ThankfulCard() {
           className="w-full h-full object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"
         />
         <div className="absolute inset-0 flex flex-col items-center justify-between opacity-100 transition-opacity p-4">
-          <h1 className="text-2xl font-extrabold leading-none tracking-normal text-gray-900 md:text-3xl md:tracking-tight">
+          <h1 className="text-2xl font-extrabold leading-none text-gray-400 tracking-normal md:text-2xl md:tracking-tight">
             <span className="block w-full text-center bg-clip-text bg-gradient-to-r from-green-400 to-purple-500 lg:inline">
               Thank You!
             </span>
           </h1>
-          <h1 className="text-2xl font-extrabold leading-none tracking-normal text-gray-900 md:text-3xl md:tracking-tight mt-auto mb-6">
+          <h1 className="text-2xl font-extrabold leading-none text-gray-400 tracking-normal md:text-2xl md:tracking-tight mt-auto mb-6">
             <span className="block w-full text-center bg-clip-text bg-gradient-to-r from-green-400 to-purple-500 lg:inline">
               {userName}
             </span>

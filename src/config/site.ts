@@ -3,7 +3,7 @@ import { SiteConfig } from "@/types";
 export const siteConfig: SiteConfig = {
   name: "Thankful_Art",
   description:
-    "© 2024 thankfulArt. All Rights Reserved. | Privacy Policy",
+    "© 2024 ThankfulArt. All Rights Reserved.",
   url: "https://github.com/engraya/thankful_art",
   ogImage: "",
   creator: {
