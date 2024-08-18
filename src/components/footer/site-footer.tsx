@@ -8,7 +8,7 @@ export default async function SiteFooter() {
     <main className="border-t mt-4 backdrop-blur-sm">
       <section
         id="footer"
-        className="container mx-auto hidden p-4 md:p-6 lg:p-10 lg:grid grid-cols-1 lg:grid-cols-3 items-center gap-6"
+        className="container mx-auto hidden p-4 md:p-4 lg:p-8 lg:grid grid-cols-1 lg:grid-cols-3 items-center gap-6"
       >
         <div className="flex flex-col items-start ml-10">
           <div className="flex justify-center items-center gap-3 mb-3">
