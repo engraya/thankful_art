@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { ChangeEvent } from 'react';
-import Image, { StaticImageData } from 'next/image';
+import Image from 'next/image';
 import { fetchRandomPhotos } from '../../../data/images';
 import Link from 'next/link';
 import { UnsplashImage } from '@/types/images';
@@ -31,7 +31,7 @@ const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
     fetchPhotos();
   }, []);
 
-  console.log("Photos", photos)
+  const isButtonDisabled = !selectedImage || !userName;
 
   return (
     <div className="text-gray-600 dark:text-gray-300 pt-8" id="reviews">
@@ -47,7 +47,7 @@ const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
               Choose, Customize, and Download with Just a Few Clicks!
             </p>
             <p className="mt-2 text-sm text-center leading-8 text-gray-400">
-              With just a few clicks, Select an Image, Enter your name and generate a custom Thankful Art!!
+              Select an Image, Enter your name and generate a custom Thankful Art!!
             </p>
           </div>
         </section>
@@ -98,9 +98,16 @@ const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
 
             <div className="buttonDiv flex justify-center mx-auto items-center max-w-xl mt-10">
               <Link href="/generated">
-              <button className="animate-bounce focus:animate-none hover:animate-none px-6 py-2 bg-gradient-to-r from-blue-500 to-purple-500 text-white font-bold rounded-full transition-transform transform-gpu hover:-translate-y-1 hover:shadow-lg">
-                Generate!
-              </button>
+              <button
+                  className={`px-6 py-2 font-bold rounded-full transition-transform transform-gpu ${
+                    isButtonDisabled
+                      ? 'bg-gray-400 text-gray-200 cursor-not-allowed'
+                      : 'animate-bounce focus:animate-none hover:animate-none bg-gradient-to-r from-blue-500 to-purple-500 text-white hover:-translate-y-1 hover:shadow-lg'
+                  }`}
+                  disabled={isButtonDisabled}
+                >
+                  Generate!
+                </button>
               </Link>
            </div>
           </>

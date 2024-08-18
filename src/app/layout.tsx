@@ -1,26 +1,16 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import localFont from "next/font/local";
 import { ThemeProvider } from "../components/ThemeProvider/ThemeProvider";
-import { cn } from "@/lib/utils";
 import SiteFooter from "@/components/footer/site-footer";
 import NavigationBar from "@/components/navbar/NavigationBar";
 
 
-const fontSans = Inter({
-  subsets: ["latin"],
-  variable: "--font-sans",
-});
-
-const fontHeading = localFont({
-  src: "../../assets/fonts/CalSans-SemiBold.woff2",
-  variable: "--font-heading",
-});
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "ThankFul Art",
-  description: "Choose, Customize, and Download with Just a Few Clicks",
+  description: "Choose, Customize, and Download Thankful Art with Just a few clicks",
 };
 
 export default function RootLayout({
@@ -30,28 +20,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={cn(
-          "min-h-screen bg-background font-sans antialiased",
-          fontSans.variable,
-          fontHeading.variable
-        )}
-        suppressHydrationWarning={true}
-      >
-          <NavigationBar/>
-          <div className="main"></div>
-          <div className="gradient"></div>
-          <ThemeProvider
+      <body className={inter.className}>
+      <ThemeProvider
             attribute="class"
+            defaultTheme="system"
             enableSystem
             disableTransitionOnChange
-          >
-           <div className="flex min-h-screen flex-col">
-            {children}
-            </div>
-          
-            <SiteFooter />
-          </ThemeProvider>
+      >
+      <NavigationBar/>
+        <div className="flex min-h-screen flex-col">
+        {children}
+        </div>
+      
+        <SiteFooter />
+      </ThemeProvider>
       </body>
     </html>
   );
