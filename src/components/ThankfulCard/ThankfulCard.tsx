@@ -20,7 +20,7 @@ function ThankfulCard() {
     if (cardRef.current) {
       const canvas = await html2canvas(cardRef.current, {
         useCORS: true,
-        backgroundColor: null, // Ensure the background is transparent if needed
+        backgroundColor: null, 
       });
       const link = document.createElement('a');
       link.download = `${userName}-ThankYouCard.png`;
@@ -45,7 +45,7 @@ function ThankfulCard() {
               Thank You!
             </span>
           </h1>
-          <h1 className="text-2xl font-extrabold leading-none tracking-normal text-gray-900 md:text-3xl md:tracking-tight mt-auto mb-8">
+          <h1 className="text-2xl font-extrabold leading-none tracking-normal text-gray-900 md:text-3xl md:tracking-tight mt-auto mb-6">
             <span className="block w-full text-center bg-clip-text bg-gradient-to-r from-green-400 to-purple-500 lg:inline">
               {userName}
             </span>

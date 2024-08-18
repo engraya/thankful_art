@@ -67,8 +67,8 @@ function Features() {
                 </svg></div>
             </div>
             <div className="ml-4">
-              <h4 className="text-lg font-medium leadi ">Social Media Sharing</h4>
-              <p className="mt-2 ">Add functionality to share the generated thank you card directly on social media platforms..</p>
+              <h4 className="text-lg font-medium leadi ">Download & Share</h4>
+              <p className="mt-2 ">Added a Download functionality to download & share the generated thank you card directly on social media platforms and friends..</p>
             </div>
           </div>
         </div>

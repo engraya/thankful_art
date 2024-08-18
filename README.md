@@ -1,30 +1,28 @@
-# AI_Prompts
+# Thnakful_Art
 
-aiPrompts is a web app designed to help you create, discover, and share prompts that can spark creativity and innovation.
-
-![NexTemplate](https://nextemplate.vercel.app/nextemplate.gif)
+ThankfulArt is a web app designed to help you Create Your Perfect Thank You Card in Seconds
 
 ## Features
 
-1. **Open Source**: AI Prompts is fully open source. Dive into the code, make changes, and use it as you see fit. Just remember, it's not perfect, and I'm always open to improvements.
+1. **Open Source**: ThankfulArt is fully open source. Dive into the code, make changes, and use it as you see fit. Just remember, it's not perfect, and I'm always open to improvements.
 2. **Responsive Design**: Enjoy a seamless experience across all devices with our responsive design.
-3. **Live Demos**: See the components in action with live demos. The demos include code snippets in TypeScript, CSS, and Tailwind for your convenience.
+3. **Preview Mode**: Include a preview mode where users can see how their card will look before downloading.
 4. **Code Organization**: I've tried to organize the components into different files, following some good practices for clarity. It's not perfect, but it gets the job done.
-5. **Easy Copy-Paste Integration**: Feel free to copy and paste the code snippets directly into your project. It's a quick and straightforward way to integrate these components.
+5. **Download & Share**: Added a Download functionality to download & share the generated thank you card directly on social media platforms and friends
 
 ## Getting Started
 
-To get started with ai_prompts, visit the [ai_prompts](https://nextemplate.vercel.app). The project isn't flawless, but it's a work in progress.
+To get started with ai_prompts, visit the https://github.com/engraya/thankful_art. The project isn't flawless, but it's a work in progress.
 
 ## Contributing
 
-Contributions to NexTemplate are welcome and encouraged! If you have suggestions, feature requests, or you found a bug, feel free to open an issue. If you'd like to contribute code, follow these steps:
+Contributions to ThankfulArt are welcome and encouraged! If you have suggestions, feature requests, or you found a bug, feel free to open an issue. If you'd like to contribute code, follow these steps:
 
 1. **Fork the repository**: Click the "Fork" button in the upper right corner of this repository to create your copy.
 2. **Clone your fork**: Clone your forked repository to your local machine using the following command:
 
    ```bash
-   git clone https://github.com/engraya/aiPrompts
+   git clone https://github.com/engraya/thankful_art
    ```
 3. **Create a branch**: Create a new branch for your contribution:
 
@@ -63,7 +61,7 @@ git push origin feature-or-fix-name
 
 ## Adding a New Component
 
-If you'd like to contribute a new component to NexTemplate, please follow these guidelines:
+If you'd like to contribute a new component to ThankfulArt, please follow these guidelines:
 
 1. **Component Location**: Place the new component in the `src/components/templates/<component_folder>` directory.
 2. **Mandatory Files**: Each component folder must include the following two files:
@@ -88,7 +86,7 @@ If you'd like to contribute a new component to NexTemplate, please follow these 
 
 ## Deployment
 
-To deploy NexTemplate, you can use your preferred hosting platform. Here's a general guide:
+To deploy ThankfulArt, you can use your preferred hosting platform. Here's a general guide:
 
 1. **Build your app**:
 
