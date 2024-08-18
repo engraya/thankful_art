@@ -6,6 +6,7 @@ import { navigationConfig } from '@/config/navigation';
 import Link from "next/link";
 import { ThemeToggler } from "../ThemeToggler/ThemeToggler";
 import Image from "next/image";
+import { logo } from "../../../public/images/images";
 function NavigationBar() {
 
 
@@ -14,7 +15,7 @@ function NavigationBar() {
       <div className="container flex sm:flex-row justify-between items-center mx-auto py-2 px-4">
         <div className="hidden md:flex items-center text-2xl">
           <Link href="/" className="flex justify-center items-center">
-          <Image src="/Logo.png" alt="logo" width={40} height={40} />
+          <Image src={logo} alt="logo" width={40} height={40} />
             <h1 className="text-xl ml-2 font-bold underline transition-colors hover:text-foreground/80 sm:text-sm">
               {siteConfig.name}
             </h1>

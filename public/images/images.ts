@@ -10,10 +10,12 @@ import thankful9 from "./9.jpg"
 import thankful10 from "./10.jpg"
 import thankful11 from "./11.jpg"
 import thankful12 from "./12.jpg"
+import logo from "./logo.png"
 
 
 export {
     thankful1,
+    logo,
     thankful2,
     thankful3,
     thankful4,

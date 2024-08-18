@@ -21,7 +21,7 @@ function Gallery() {
   <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
   <section className="px-4 py-24 mx-auto max-w-7xl">
   <div className="w-full mx-auto text-left md:w-11/12 xl:w-9/12 md:text-center">
-    <h1 className="mb-6 text-4xl font-extrabold leading-none tracking-normal text-gray-900 md:text-6xl md:tracking-tight">
+    <h1 className="mb-3 text-4xl text-center font-extrabold leading-none tracking-normal text-gray-900 md:text-6xl md:tracking-tight">
       <span className="block w-full text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-purple-500 lg:inline">Here are the crazy ones</span>
     </h1>
   </div>
