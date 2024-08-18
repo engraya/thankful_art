@@ -6,13 +6,13 @@ function HowItWorks() {
   <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
   <section className="px-4 py-24 mx-auto max-w-7xl">
   <div className="w-full mx-auto text-left md:w-11/12 xl:w-9/12 md:text-center">
-    <h1 className="mb-6 text-4xl font-extrabold leading-none tracking-normal text-gray-900 md:text-6xl md:tracking-tight">
+    <h1 className="text-4xl text-center font-extrabold leading-none tracking-normal text-gray-900 md:text-6xl md:tracking-tight">
       <span className="block w-full text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-purple-500 lg:inline">How the App works</span>
     </h1>
   </div>
 </section>
-    <div className="relative mt-12 lg:mt-20">
-      <div className="absolute inset-x-0 hidden xl:px-44 top-2 md:block md:px-20 lg:px-28"><Image alt="" loading="lazy" width={1000} height={500} decoding="async" data-nimg={1} className="w-full dark:text-gray-200" style={{color: 'transparent'}} src="https://cdn.rareblocks.xyz/collection/celebration/images/steps/2/curved-dotted-line.svg" />
+    <div className="relative mt-12 lg:mt-12">
+      <div className="absolute inset-x-0 hidden xl:px-44 top-2 md:block md:px-16 lg:px-28"><Image alt="" loading="lazy" width={1000} height={500} decoding="async" data-nimg={1} className="w-full dark:text-gray-200" style={{color: 'transparent'}} src="https://cdn.rareblocks.xyz/collection/celebration/images/steps/2/curved-dotted-line.svg" />
       </div>
       <div className="relative grid grid-cols-1 text-center gap-y-12 md:grid-cols-3 gap-x-12">
         <div>

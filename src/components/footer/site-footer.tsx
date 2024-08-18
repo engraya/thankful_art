@@ -2,7 +2,8 @@ import MobileFooter from "./mobile-footer";
 import { Icons } from "@/components/icons";
 import { siteConfig } from "@/config/site";
 import Link from "next/link";
-
+import Image from "next/image";
+import { logo } from "../../../public/images/images";
 export default async function SiteFooter() {
   return (
     <main className="border-t mt-4 backdrop-blur-sm">
@@ -12,7 +13,7 @@ export default async function SiteFooter() {
       >
         <div className="flex flex-col items-start ml-10">
           <div className="flex justify-center items-center gap-3 mb-3">
-            <Icons.logo />
+          <Image src={logo} alt="logo" width={40} height={40} />
             <h1 className="font-heading text-center">{siteConfig.name}</h1>
           </div>
           <p className="max-w-sm text-sm">{siteConfig.description}</p>
